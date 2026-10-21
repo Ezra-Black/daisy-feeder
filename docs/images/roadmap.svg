@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1200" height="300" rx="24" fill="#f0fdf4"/>
+  <text x="600" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">The whole job, start to finish</text>
+  <text x="600" y="74" text-anchor="middle" font-size="15" fill="#475569">About 3 hours of hands-on time, spread over a weekend. Take it one part at a time.</text>
+  <line x1="110" y1="150" x2="1090" y2="150" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+  <g text-anchor="middle">
+    <g transform="translate(110,0)">
+      <circle cy="150" r="30" fill="#16a34a"/><text y="158" font-size="22" font-weight="700" fill="#fff">1</text>
+      <text y="212" font-size="16" font-weight="700" fill="#14532d">Buy the parts</text>
+      <text y="234" font-size="13.5" fill="#166534">order online</text>
+      <rect x="-42" y="248" width="84" height="24" rx="12" fill="#dcfce7"/><text y="265" font-size="13" fill="#14532d">~$140</text>
+    </g>
+    <g transform="translate(306,0)">
+      <circle cy="150" r="30" fill="#16a34a"/><text y="158" font-size="22" font-weight="700" fill="#fff">2</text>
+      <text y="212" font-size="16" font-weight="700" fill="#14532d">Prepare the</text>
+      <text y="232" font-size="16" font-weight="700" fill="#14532d">memory card</text>
+      <rect x="-42" y="248" width="84" height="24" rx="12" fill="#dcfce7"/><text y="265" font-size="13" fill="#14532d">20 min</text>
+    </g>
+    <g transform="translate(502,0)">
+      <circle cy="150" r="30" fill="#16a34a"/><text y="158" font-size="22" font-weight="700" fill="#fff">3</text>
+      <text y="212" font-size="16" font-weight="700" fill="#14532d">Install the</text>
+      <text y="232" font-size="16" font-weight="700" fill="#14532d">feeder program</text>
+      <rect x="-42" y="248" width="84" height="24" rx="12" fill="#dcfce7"/><text y="265" font-size="13" fill="#14532d">15 min</text>
+    </g>
+    <g transform="translate(698,0)">
+      <circle cy="150" r="30" fill="#16a34a"/><text y="158" font-size="22" font-weight="700" fill="#fff">4</text>
+      <text y="212" font-size="16" font-weight="700" fill="#14532d">Wire the motor</text>
+      <text y="232" font-size="16" font-weight="700" fill="#14532d">and test it</text>
+      <rect x="-42" y="248" width="84" height="24" rx="12" fill="#dcfce7"/><text y="265" font-size="13" fill="#14532d">30 min</text>
+    </g>
+    <g transform="translate(894,0)">
+      <circle cy="150" r="30" fill="#16a34a"/><text y="158" font-size="22" font-weight="700" fill="#fff">5</text>
+      <text y="212" font-size="16" font-weight="700" fill="#14532d">Build the feeder</text>
+      <text y="232" font-size="16" font-weight="700" fill="#14532d">and adjust it</text>
+      <rect x="-42" y="248" width="84" height="24" rx="12" fill="#dcfce7"/><text y="265" font-size="13" fill="#14532d">1–2 hrs</text>
+    </g>
+    <g transform="translate(1090,0)">
+      <circle cy="150" r="30" fill="#f59e0b"/><text y="158" font-size="22" font-weight="700" fill="#fff">6</text>
+      <text y="212" font-size="16" font-weight="700" fill="#78350f">Hook up</text>
+      <text y="232" font-size="16" font-weight="700" fill="#78350f">TikTok + go live</text>
+      <rect x="-42" y="248" width="84" height="24" rx="12" fill="#fef3c7"/><text y="265" font-size="13" fill="#78350f">30 min</text>
+    </g>
+  </g>
+</svg>

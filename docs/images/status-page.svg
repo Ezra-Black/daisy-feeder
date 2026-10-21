@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="640" rx="24" fill="#f8fafc"/>
+  <!-- phone -->
+  <rect x="60" y="30" width="330" height="580" rx="40" fill="#0f172a"/>
+  <rect x="74" y="44" width="302" height="552" rx="30" fill="#fff"/>
+  <rect x="88" y="58" width="274" height="26" rx="13" fill="#f1f5f9"/>
+  <text x="225" y="76" text-anchor="middle" font-size="12" fill="#475569">duckfeeder.local:5000</text>
+  <text x="96" y="122" font-size="22" font-weight="700" fill="#1e293b">🦆 Duck Feeder</text>
+  <rect x="92" y="138" width="266" height="110" rx="12" fill="#f1f5f9"/>
+  <text x="106" y="162" font-size="13" fill="#1e293b">Portions today</text>
+  <text x="106" y="204" font-size="34" font-weight="700" fill="#1e293b">7 / 30</text>
+  <text x="106" y="232" font-size="12" fill="#1e293b">Waiting in queue: 0 · Cooldown: 20s</text>
+  <rect x="92" y="260" width="266" height="120" rx="12" fill="#f1f5f9"/>
+  <text x="106" y="284" font-size="13" font-weight="700" fill="#1e293b">Recent feeds</text>
+  <g font-size="12.5" fill="#1e293b">
+    <text x="114" y="308">• 19:42:10 - quackfan99</text>
+    <text x="114" y="330">• 19:38:51 - sam.streams</text>
+    <text x="114" y="352">• 19:31:05 - manual test</text>
+  </g>
+  <rect x="92" y="392" width="266" height="150" rx="12" fill="#f1f5f9"/>
+  <text x="106" y="416" font-size="13" font-weight="700" fill="#1e293b">Manual test</text>
+  <rect x="106" y="428" width="238" height="38" rx="8" fill="#fff" stroke="#cbd5e1"/>
+  <text x="118" y="452" font-size="13" fill="#94a3b8">Feeder key</text>
+  <rect x="106" y="476" width="238" height="40" rx="8" fill="#16a34a"/>
+  <text x="225" y="501" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Feed now</text>
+  <text x="106" y="534" font-size="12" fill="#1e293b">queued</text>
+
+  <!-- callouts -->
+  <g font-size="15" fill="#0f172a">
+    <path d="M362 200 H440" stroke="#475569" stroke-width="2"/>
+    <circle cx="456" cy="200" r="14" fill="#16a34a"/><text x="456" y="205" text-anchor="middle" font-weight="700" fill="#fff" font-size="13">1</text>
+    <text x="480" y="196" font-weight="700">How many portions today</text>
+    <text x="480" y="216" fill="#475569">out of the daily limit (30 to start).</text>
+    <text x="480" y="236" fill="#475569">Resets at midnight.</text>
+
+    <path d="M362 320 H440" stroke="#475569" stroke-width="2"/>
+    <circle cx="456" cy="320" r="14" fill="#16a34a"/><text x="456" y="325" text-anchor="middle" font-weight="700" fill="#fff" font-size="13">2</text>
+    <text x="480" y="316" font-weight="700">Who fed the duck</text>
+    <text x="480" y="336" fill="#475569">the last 10 feeds, with the time.</text>
+
+    <path d="M362 470 H440" stroke="#475569" stroke-width="2"/>
+    <circle cx="456" cy="470" r="14" fill="#16a34a"/><text x="456" y="475" text-anchor="middle" font-weight="700" fill="#fff" font-size="13">3</text>
+    <text x="480" y="466" font-weight="700">Test button</text>
+    <text x="480" y="486" fill="#475569">type your feeder key, press</text>
+    <text x="480" y="506" fill="#475569">Feed now: the flap should open</text>
+    <text x="480" y="526" fill="#475569">and close once.</text>
+  </g>
+  <text x="480" y="90" font-size="22" font-weight="700" fill="#0f172a">The status page</text>
+  <text x="480" y="116" font-size="14.5" fill="#475569">Open it on any phone or computer that's on</text>
+  <text x="480" y="136" font-size="14.5" fill="#475569">the same Wi-Fi as the Pi. It updates by itself.</text>
+</svg>

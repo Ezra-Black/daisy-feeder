@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="#eff6ff"/>
+  <text x="600" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">What you set up in TikFinity</text>
+  <text x="600" y="74" text-anchor="middle" font-size="15" fill="#475569">One <tspan font-weight="700">action</tspan> (what to do: ping the Pi) and two <tspan font-weight="700">events</tspan> (when to do it). Both events point at the same action.</text>
+
+  <!-- events -->
+  <g transform="translate(40,110)">
+    <rect width="320" height="110" rx="14" fill="#fff" stroke="#db2777" stroke-width="2.5"/>
+    <rect x="16" y="16" width="70" height="24" rx="12" fill="#fce7f3"/><text x="51" y="33" text-anchor="middle" font-size="13" font-weight="700" fill="#9d174d">EVENT</text>
+    <text x="16" y="66" font-size="18" font-weight="700" fill="#0f172a">Gift (minimum coins)</text>
+    <text x="16" y="90" font-size="15" fill="#475569">Minimum coins: <tspan font-weight="700" fill="#0f172a">250</tspan></text>
+  </g>
+  <g transform="translate(40,250)">
+    <rect width="320" height="110" rx="14" fill="#fff" stroke="#db2777" stroke-width="2.5"/>
+    <rect x="16" y="16" width="70" height="24" rx="12" fill="#fce7f3"/><text x="51" y="33" text-anchor="middle" font-size="13" font-weight="700" fill="#9d174d">EVENT</text>
+    <text x="16" y="66" font-size="18" font-weight="700" fill="#0f172a">Subscribe</text>
+    <text x="16" y="90" font-size="15" fill="#475569">someone subscribes</text>
+  </g>
+
+  <g stroke="#475569" stroke-width="3" fill="none" marker-end="url(#ar)">
+    <path d="M362 165 C 410 165, 410 230, 448 232"/>
+    <path d="M362 305 C 410 305, 410 240, 448 238"/>
+    <path d="M852 235 H 900"/>
+  </g>
+
+  <!-- action -->
+  <g transform="translate(450,150)">
+    <rect width="400" height="170" rx="14" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+    <rect x="16" y="16" width="76" height="24" rx="12" fill="#dbeafe"/><text x="54" y="33" text-anchor="middle" font-size="13" font-weight="700" fill="#1e40af">ACTION</text>
+    <text x="16" y="66" font-size="18" font-weight="700" fill="#0f172a">"Feed the duck"</text>
+    <text x="16" y="92" font-size="15" fill="#475569">Type: <tspan font-weight="700" fill="#0f172a">Trigger Webhook</tspan></text>
+    <text x="16" y="116" font-size="15" fill="#475569">URL (paste yours):</text>
+    <rect x="16" y="126" width="368" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="26" y="146" font-size="13" font-family="Menlo, Consolas, monospace" fill="#0f172a">http://duckfeeder.local:5000/feed?key=…</text>
+  </g>
+
+  <!-- pi -->
+  <g transform="translate(902,165)">
+    <rect width="260" height="140" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+    <rect x="20" y="22" width="70" height="46" rx="5" fill="#15803d"/><rect x="26" y="26" width="58" height="6" fill="#facc15"/>
+    <text x="104" y="44" font-size="17" font-weight="700" fill="#14532d">Raspberry Pi</text>
+    <text x="104" y="64" font-size="14" fill="#166534">drops one portion</text>
+    <text x="20" y="100" font-size="13.5" fill="#166534">(if it's not cooling down</text>
+    <text x="20" y="118" font-size="13.5" fill="#166534">and today's limit isn't hit)</text>
+  </g>
+</svg>

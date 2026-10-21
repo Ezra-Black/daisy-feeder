@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="Menlo, Consolas, monospace">
+  <rect width="1000" height="520" rx="16" fill="#0f172a"/>
+  <rect width="1000" height="40" rx="16" fill="#1e293b"/><rect y="24" width="1000" height="16" fill="#1e293b"/>
+  <circle cx="26" cy="20" r="7" fill="#ef4444"/><circle cx="50" cy="20" r="7" fill="#f59e0b"/><circle cx="74" cy="20" r="7" fill="#22c55e"/>
+  <text x="500" y="26" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">What you'll see when the install finishes</text>
+  <g font-size="15" fill="#e2e8f0">
+    <text x="28" y="76" fill="#94a3b8">==&gt; Installing packages</text>
+    <text x="28" y="98" fill="#94a3b8">==&gt; Copying program to /opt/duckfeeder</text>
+    <text x="28" y="120" fill="#94a3b8">==&gt; Creating settings file /etc/duckfeeder.env with a new random key</text>
+    <text x="28" y="142" fill="#94a3b8">==&gt; Installing system service (runs as duckowner)</text>
+    <text x="28" y="180" fill="#4ade80" font-weight="700">✅ Duck feeder is running.</text>
+    <text x="28" y="218">Status page (open on any phone or PC on your Wi-Fi):</text>
+    <text x="28" y="240" fill="#93c5fd">  http://duckfeeder.local:5000/      or   http://192.168.1.57:5000/</text>
+    <text x="28" y="274">Feeder key (type this on the status page to test):</text>
+    <text x="28" y="296" fill="#fde68a">  Xk3v9QmR2pLw7aTn</text>
+    <text x="28" y="330">Paste THIS into TikFinity (Trigger Webhook):</text>
+    <text x="28" y="352" fill="#fde68a">  http://duckfeeder.local:5000/feed?key=Xk3v9QmR2pLw7aTn</text>
+    <text x="28" y="386">If that doesn't work from Windows, use this one instead:</text>
+    <text x="28" y="408" fill="#fde68a">  http://192.168.1.57:5000/feed?key=Xk3v9QmR2pLw7aTn</text>
+    <text x="28" y="442" fill="#94a3b8">Show this again any time:   duckfeeder-info</text>
+    <text x="28" y="464" fill="#94a3b8">Adjust the flap:            duckfeeder-calibrate</text>
+  </g>
+  <rect x="640" y="268" width="330" height="72" rx="10" fill="#f59e0b"/>
+  <text x="656" y="296" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0f172a">Your key will be different.</text>
+  <text x="656" y="320" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0f172a">Copy the yellow lines somewhere safe.</text>
+</svg>

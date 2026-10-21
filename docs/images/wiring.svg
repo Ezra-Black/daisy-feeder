@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1200" height="700" rx="24" fill="#f8fafc"/>
+  <text x="600" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#0f172a">Wiring: just 4 wires</text>
+  <text x="600" y="78" text-anchor="middle" font-size="16" fill="#475569">Do this with everything UNPLUGGED. Plug the power in only after all 4 wires are on.</text>
+
+  <!-- ===== wires (drawn first, so parts sit on top) ===== -->
+  <g fill="none" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <!-- A: signal, pin 12 -> servo orange -->
+    <path d="M167 192 V140 H530 V280 H632" stroke="#f59e0b"/>
+    <!-- B: red -> terminal + -->
+    <path d="M632 300 H575 V580 H668" stroke="#dc2626"/>
+    <!-- C: brown -> terminal - -->
+    <path d="M632 320 H590 V536 H668" stroke="#78350f"/>
+    <!-- D: pin 6 GND -> terminal - -->
+    <path d="M122 192 V115 H45 V548 H668" stroke="#0f172a"/>
+  </g>
+  <!-- wire letter tags -->
+  <g font-size="16" font-weight="700" text-anchor="middle">
+    <circle cx="350" cy="140" r="16" fill="#f59e0b"/><text x="350" y="146" fill="#0f172a">A</text>
+    <circle cx="575" cy="440" r="16" fill="#dc2626"/><text x="575" y="446" fill="#fff">B</text>
+    <circle cx="590" cy="400" r="16" fill="#78350f"/><text x="590" y="406" fill="#fff">C</text>
+    <circle cx="45" cy="330" r="16" fill="#0f172a"/><text x="45" y="336" fill="#fff">D</text>
+  </g>
+
+  <!-- ===== Raspberry Pi ===== -->
+  <rect x="70" y="170" width="380" height="230" rx="16" fill="#15803d"/>
+  <rect x="80" y="180" width="310" height="34" rx="4" fill="#111827"/>
+  <g fill="#facc15">
+    <rect x="86" y="186" width="9" height="9"/><rect x="101" y="186" width="9" height="9"/><rect x="116" y="186" width="9" height="9"/><rect x="131" y="186" width="9" height="9"/><rect x="146" y="186" width="9" height="9"/><rect x="161" y="186" width="9" height="9"/><rect x="176" y="186" width="9" height="9"/><rect x="191" y="186" width="9" height="9"/><rect x="206" y="186" width="9" height="9"/><rect x="221" y="186" width="9" height="9"/><rect x="236" y="186" width="9" height="9"/><rect x="251" y="186" width="9" height="9"/><rect x="266" y="186" width="9" height="9"/><rect x="281" y="186" width="9" height="9"/><rect x="296" y="186" width="9" height="9"/><rect x="311" y="186" width="9" height="9"/><rect x="326" y="186" width="9" height="9"/><rect x="341" y="186" width="9" height="9"/><rect x="356" y="186" width="9" height="9"/><rect x="371" y="186" width="9" height="9"/>
+    <rect x="86" y="200" width="9" height="9"/><rect x="101" y="200" width="9" height="9"/><rect x="116" y="200" width="9" height="9"/><rect x="131" y="200" width="9" height="9"/><rect x="146" y="200" width="9" height="9"/><rect x="161" y="200" width="9" height="9"/><rect x="176" y="200" width="9" height="9"/><rect x="191" y="200" width="9" height="9"/><rect x="206" y="200" width="9" height="9"/><rect x="221" y="200" width="9" height="9"/><rect x="236" y="200" width="9" height="9"/><rect x="251" y="200" width="9" height="9"/><rect x="266" y="200" width="9" height="9"/><rect x="281" y="200" width="9" height="9"/><rect x="296" y="200" width="9" height="9"/><rect x="311" y="200" width="9" height="9"/><rect x="326" y="200" width="9" height="9"/><rect x="341" y="200" width="9" height="9"/><rect x="356" y="200" width="9" height="9"/><rect x="371" y="200" width="9" height="9"/>
+  </g>
+  <!-- female jumper ends on pins 6 and 12 -->
+  <rect x="114" y="181" width="16" height="20" rx="2" fill="#0f172a" stroke="#fff" stroke-width="1.5"/>
+  <rect x="159" y="181" width="16" height="20" rx="2" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+  <text x="122" y="234" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">pin 6</text>
+  <text x="167" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="#fde68a">pin 12</text>
+  <rect x="225" y="270" width="64" height="64" rx="4" fill="#0f172a"/>
+  <rect x="410" y="250" width="56" height="40" rx="4" fill="#cbd5e1"/><rect x="410" y="300" width="56" height="40" rx="4" fill="#cbd5e1"/>
+  <text x="260" y="380" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">Raspberry Pi</text>
+  <!-- Pi's own power -->
+  <rect x="120" y="398" width="34" height="18" rx="4" fill="#334155"/>
+  <path d="M137 416 V470" stroke="#334155" stroke-width="6"/>
+  <text x="160" y="455" font-size="14" fill="#334155">Pi's own power supply</text>
+  <text x="160" y="473" font-size="14" fill="#334155">(the one from the kit)</text>
+
+  <!-- ===== Servo plug + servo ===== -->
+  <path d="M664 280 C 720 280, 740 262, 800 262" stroke="#f59e0b" stroke-width="5" fill="none"/>
+  <path d="M664 300 C 720 300, 740 280, 800 280" stroke="#dc2626" stroke-width="5" fill="none"/>
+  <path d="M664 320 C 720 320, 740 298, 800 298" stroke="#78350f" stroke-width="5" fill="none"/>
+  <rect x="632" y="268" width="34" height="64" rx="4" fill="#0f172a"/>
+  <g fill="#94a3b8"><rect x="620" y="277" width="14" height="6"/><rect x="620" y="297" width="14" height="6"/><rect x="620" y="317" width="14" height="6"/></g>
+  <text x="649" y="258" text-anchor="middle" font-size="13" fill="#334155">servo plug</text>
+
+  <rect x="800" y="230" width="190" height="90" rx="8" fill="#1e293b"/>
+  <rect x="780" y="262" width="230" height="12" rx="3" fill="#1e293b"/>
+  <circle cx="950" cy="230" r="15" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+  <rect x="940" y="168" width="20" height="66" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  <text x="975" y="160" font-size="13" fill="#334155">arm (horn)</text>
+  <text x="880" y="306" text-anchor="middle" font-size="16" font-weight="700" fill="#e2e8f0">MG996R servo</text>
+
+  <!-- ===== Screw terminal + barrel + wall adapter ===== -->
+  <rect x="668" y="515" width="80" height="90" rx="6" fill="#16a34a"/>
+  <circle cx="700" cy="536" r="9" fill="#cbd5e1"/><circle cx="700" cy="580" r="9" fill="#cbd5e1"/>
+  <path d="M694 536 h12 M694 580 h12 M700 574 v12" stroke="#475569" stroke-width="2.5"/>
+  <text x="728" y="543" font-size="22" font-weight="700" fill="#fff">−</text>
+  <text x="726" y="588" font-size="22" font-weight="700" fill="#fff">+</text>
+  <rect x="748" y="535" width="70" height="50" rx="6" fill="#1e293b"/>
+  <circle cx="783" cy="560" r="12" fill="#0f172a" stroke="#64748b" stroke-width="2"/>
+  <text x="708" y="630" text-anchor="middle" font-size="13" fill="#334155">screw terminal adapter</text>
+  <path d="M818 560 H850" stroke="#475569" stroke-width="6"/>
+  <rect x="846" y="551" width="22" height="18" rx="3" fill="#475569"/>
+  <path d="M868 560 C 930 560, 960 610, 1040 600" stroke="#1e293b" stroke-width="6" fill="none"/>
+  <rect x="1040" y="550" width="80" height="100" rx="10" fill="#1e293b"/>
+  <rect x="1118" y="575" width="22" height="8" fill="#94a3b8"/><rect x="1118" y="610" width="22" height="8" fill="#94a3b8"/>
+  <text x="1080" y="598" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">5V 3A</text>
+  <text x="1080" y="616" text-anchor="middle" font-size="12" fill="#cbd5e1">motor only</text>
+
+  <!-- ===== legend ===== -->
+  <g transform="translate(790,350)">
+    <rect width="380" height="176" rx="14" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+    <g font-size="14" fill="#0f172a">
+      <circle cx="26" cy="30" r="12" fill="#f59e0b"/><text x="26" y="35" text-anchor="middle" font-weight="700">A</text>
+      <text x="48" y="35"><tspan font-weight="700">Orange</tspan> servo wire → Pi <tspan font-weight="700">pin 12</tspan></text>
+      <circle cx="26" cy="68" r="12" fill="#dc2626"/><text x="26" y="73" text-anchor="middle" font-weight="700" fill="#fff">B</text>
+      <text x="48" y="73"><tspan font-weight="700">Red</tspan> servo wire → <tspan font-weight="700">+</tspan> screw</text>
+      <circle cx="26" cy="106" r="12" fill="#78350f"/><text x="26" y="111" text-anchor="middle" font-weight="700" fill="#fff">C</text>
+      <text x="48" y="111"><tspan font-weight="700">Brown</tspan> servo wire → <tspan font-weight="700">−</tspan> screw</text>
+      <circle cx="26" cy="144" r="12" fill="#0f172a"/><text x="26" y="149" text-anchor="middle" font-weight="700" fill="#fff">D</text>
+      <text x="48" y="149">Pi <tspan font-weight="700">pin 6</tspan> → the <tspan font-weight="700">same −</tspan> screw as C</text>
+    </g>
+  </g>
+
+  <text x="600" y="680" text-anchor="middle" font-size="15" fill="#475569">Wire D is the one people forget. Without it the motor just won't move.</text>
+</svg>

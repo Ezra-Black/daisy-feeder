@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# Prints whether the feeder is running and the web addresses to use.
+set -euo pipefail
+[[ $EUID -eq 0 ]] || exec sudo "$0" "$@"
+ENV_FILE=/etc/duckfeeder.env
+KEY="$(grep '^FEEDER_KEY=' "$ENV_FILE" | cut -d= -f2-)"
+PORT="$(grep '^FEEDER_PORT=' "$ENV_FILE" | cut -d= -f2- || true)"; PORT="${PORT:-5000}"
+HOST="$(hostname).local"
+IP="$(hostname -I | awk '{print $1}')"
+
+echo
+if systemctl is-active --quiet duckfeeder; then
+  echo "✅ Duck feeder is running."
+else
+  echo "⚠️  Duck feeder is NOT running. See:  journalctl -u duckfeeder -n 50"
+fi
+cat <<INFO
+
+Status page (open on any phone or PC on your Wi-Fi):
+  http://$HOST:$PORT/      or   http://$IP:$PORT/
+
+Feeder key (type this on the status page to test):
+  $KEY
+
+Paste THIS into TikFinity (Trigger Webhook):
+  http://$HOST:$PORT/feed?key=$KEY
+
+If that doesn't work from Windows, use this one instead:
+  http://$IP:$PORT/feed?key=$KEY
+
+Show this again any time:   duckfeeder-info
+Adjust the flap:            duckfeeder-calibrate
+Change settings:            sudo nano $ENV_FILE   then   sudo systemctl restart duckfeeder
+INFO

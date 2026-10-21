@@ -1,0 +1,5 @@
+# Saved by windows/Test-DuckFeeder.ps1 — contains your feeder key
+windows/feeder-settings.txt
+__pycache__/
+*.pyc
+.DS_Store

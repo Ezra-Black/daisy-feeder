@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Pauses the feeder, runs the flap calibration, and starts the feeder again.
+set -euo pipefail
+[[ $EUID -eq 0 ]] || exec sudo "$0" "$@"
+systemctl stop duckfeeder
+trap 'systemctl start duckfeeder; echo "Feeder started again."' EXIT
+set -a; . /etc/duckfeeder.env; set +a
+python3 /opt/duckfeeder/calibrate.py
