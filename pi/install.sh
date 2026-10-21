@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Duck Feeder installer for Raspberry Pi OS (Bookworm or newer).
+# Daisy Feeder installer for Raspberry Pi OS (Bookworm or newer).
 # Usage (on the Pi, from this folder):   sudo bash install.sh
 set -euo pipefail
 

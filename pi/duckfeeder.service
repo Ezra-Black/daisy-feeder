@@ -1,5 +1,5 @@
 [Unit]
-Description=Duck Feeder (TikTok gift -> feed drop)
+Description=Daisy Feeder (TikTok gift -> feed drop)
 After=network-online.target
 Wants=network-online.target
 

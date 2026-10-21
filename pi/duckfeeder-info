@@ -10,9 +10,9 @@ IP="$(hostname -I | awk '{print $1}')"
 
 echo
 if systemctl is-active --quiet duckfeeder; then
-  echo "✅ Duck feeder is running."
+  echo "✅ Daisy Feeder is running."
 else
-  echo "⚠️  Duck feeder is NOT running. See:  journalctl -u duckfeeder -n 50"
+  echo "⚠️  Daisy Feeder is NOT running. See:  journalctl -u duckfeeder -n 50"
 fi
 cat <<INFO
 

@@ -1,4 +1,4 @@
-# Duck Feeder test tool for Windows.
+# Daisy Feeder test tool for Windows.
 # Right-click -> "Run with PowerShell", or double-click Test-DuckFeeder.bat
 # Checks the Pi is reachable, shows its status, and can trigger a test feed.
 

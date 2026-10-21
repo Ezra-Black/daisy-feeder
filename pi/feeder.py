@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Duck Feeder - drops a portion of feed when TikFinity (TikTok LIVE gifts/subs)
+Daisy Feeder 1.0 - drops a portion of feed when TikFinity (TikTok LIVE gifts/subs)
 calls this Pi over the local network.
 
 Endpoints
@@ -188,12 +188,12 @@ def status():
 
 
 PAGE = """<!doctype html><html><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Duck Feeder</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Daisy Feeder</title>
 <style>body{font-family:system-ui,sans-serif;max-width:420px;margin:24px auto;padding:0 16px;color:#1e293b}
 h1{font-size:1.6rem}.big{font-size:2.4rem;font-weight:700}.card{background:#f1f5f9;border-radius:12px;padding:16px;margin:12px 0}
 input,button{font-size:1rem;padding:10px;border-radius:8px;border:1px solid #cbd5e1;width:100%;box-sizing:border-box;margin-top:8px}
 button{background:#16a34a;color:#fff;border:0;font-weight:700}li{margin:4px 0}#msg{margin-top:8px}</style></head>
-<body><h1>&#129414; Duck Feeder</h1>
+<body><h1>&#129414; Daisy Feeder</h1>
 <div class="card"><div>Portions today</div><div class="big"><span id="n">-</span> / <span id="max">-</span></div>
 <div>Waiting in queue: <span id="q">-</span> &middot; Cooldown: <span id="cd">-</span>s</div></div>
 <div class="card"><b>Recent feeds</b><ul id="recent"><li>-</li></ul></div>
@@ -216,5 +216,5 @@ def home():
 
 if __name__ == "__main__":
     threading.Thread(target=worker, daemon=True).start()
-    log.info("Duck feeder listening on port %d (cooldown %ss, daily max %d)", PORT, COOLDOWN, DAILY_MAX)
+    log.info("Daisy Feeder 1.0 listening on port %d (cooldown %ss, daily max %d)", PORT, COOLDOWN, DAILY_MAX)
     app.run(host="0.0.0.0", port=PORT)

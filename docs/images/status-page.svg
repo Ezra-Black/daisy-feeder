@@ -5,7 +5,7 @@
   <rect x="74" y="44" width="302" height="552" rx="30" fill="#fff"/>
   <rect x="88" y="58" width="274" height="26" rx="13" fill="#f1f5f9"/>
   <text x="225" y="76" text-anchor="middle" font-size="12" fill="#475569">duckfeeder.local:5000</text>
-  <text x="96" y="122" font-size="22" font-weight="700" fill="#1e293b">🦆 Duck Feeder</text>
+  <text x="96" y="122" font-size="22" font-weight="700" fill="#1e293b">🦆 Daisy Feeder</text>
   <rect x="92" y="138" width="266" height="110" rx="12" fill="#f1f5f9"/>
   <text x="106" y="162" font-size="13" fill="#1e293b">Portions today</text>
   <text x="106" y="204" font-size="34" font-weight="700" fill="#1e293b">7 / 30</text>

@@ -8,7 +8,7 @@
     <text x="28" y="98" fill="#94a3b8">==&gt; Copying program to /opt/duckfeeder</text>
     <text x="28" y="120" fill="#94a3b8">==&gt; Creating settings file /etc/duckfeeder.env with a new random key</text>
     <text x="28" y="142" fill="#94a3b8">==&gt; Installing system service (runs as duckowner)</text>
-    <text x="28" y="180" fill="#4ade80" font-weight="700">✅ Duck feeder is running.</text>
+    <text x="28" y="180" fill="#4ade80" font-weight="700">✅ Daisy Feeder is running.</text>
     <text x="28" y="218">Status page (open on any phone or PC on your Wi-Fi):</text>
     <text x="28" y="240" fill="#93c5fd">  http://duckfeeder.local:5000/      or   http://192.168.1.57:5000/</text>
     <text x="28" y="274">Feeder key (type this on the status page to test):</text>

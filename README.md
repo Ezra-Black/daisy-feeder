@@ -1,8 +1,8 @@
-# 🦆 TikTok Duck Feeder
+# 🦆 Daisy Feeder 1.0
 
-When a viewer sends a gift worth **250 coins or more** on your TikTok LIVE (or subscribes), a small motor drops a portion of food into the duck's dish, live on camera.
+**Daisy Feeder** is a TikTok LIVE duck feeder. When a viewer sends a gift worth **250 coins or more** on your TikTok LIVE (or subscribes), a small motor drops a portion of food into the duck's dish, live on camera.
 
-![How the duck feeder works](docs/images/overview.svg)
+![How Daisy Feeder works](docs/images/overview.svg)
 
 **You don't need to know anything about computers or electronics to build this.** Every step is spelled out, every command can be copied and pasted, and nothing needs soldering. If you can follow a recipe and use a screwdriver, you can do this.
 
@@ -114,11 +114,11 @@ sudo apt install -y git
 ```
 
 ```
-git clone https://github.com/Ezra-Black/duck-feeder.git
+git clone https://github.com/Ezra-Black/daisy-feeder.git
 ```
 
 ```
-sudo bash duck-feeder/pi/install.sh
+sudo bash daisy-feeder/pi/install.sh
 ```
 
 If it asks for your password again, type it (it's invisible again) and press Enter. The install takes a few minutes. When it's done you'll see something like this:
@@ -425,7 +425,7 @@ Then open http://localhost:5000/.
 ### Update to the latest version
 
 ```bash
-cd ~/duck-feeder && git pull && sudo bash pi/install.sh
+cd ~/daisy-feeder && git pull && sudo bash pi/install.sh
 ```
 
 The installer keeps your existing settings and key.
@@ -433,7 +433,7 @@ The installer keeps your existing settings and key.
 ### Uninstall
 
 ```bash
-sudo bash ~/duck-feeder/pi/uninstall.sh
+sudo bash ~/daisy-feeder/pi/uninstall.sh
 ```
 
 ### Credits
